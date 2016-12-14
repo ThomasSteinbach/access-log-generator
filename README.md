@@ -21,14 +21,14 @@ Following variables are available
 
 | variable | default | description |
 |----------|---------|-------------|
-| FIRST_COMMIT_SINCE | 31536000 (1 year ago) | The seconds passed since the first commit. |
-| LAST_COMMIT_SINCE | 0 (now) | The seconds passed since the last commit. |
-| MIN_SHIFT | 10 | The initial minimum distance between two commits. |
-| MAX_SHIFT | 86400 (1 day) | The initial maximum distance between two commits. |
-| MIN_MOD_LINEAR | '+0' | The seconds added (+) or removed (-) to/from MIN_SHIFT after every commit. |
-| MAX_MOD_LINEAR | '+0' | The seconds added (+) or removed (-) to/from MAX_SHIFT after every commit. |
-| MIN_MOD_FACTOR | 1 | The factor MIN_SHIFT is modified after every commit. |
-| MAX_MOD_FACTOR | 1 | The factor Max_SHIFT is modified after every commit. |
+| FIRST_ACCESS | 1462060800 (Sun, 01 May 2016 00:00:00 GMT) | The seconds since epoch of the first access. |
+| LAST_ACCESS | 1477958399 (Mon, 31 Oct 2016 23:59:59 GMT) | The seconds since of the last access. |
+| MIN_SHIFT | 10 | The initial minimum distance between two acesses. |
+| MAX_SHIFT | 86400 (1 day) | The initial maximum distance between two accesses. |
+| MIN_MOD_LINEAR | '+0' | The seconds added (+) or removed (-) to/from MIN_SHIFT after every access. |
+| MAX_MOD_LINEAR | '+0' | The seconds added (+) or removed (-) to/from MAX_SHIFT after every access. |
+| MIN_MOD_FACTOR | 1 | The factor MIN_SHIFT is modified after every access. |
+| MAX_MOD_FACTOR | 1 | The factor Max_SHIFT is modified after every access. |
 
 ## Licence
 
